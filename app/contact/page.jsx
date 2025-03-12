@@ -14,23 +14,23 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 const info = [
   {
     icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "(+40) 321 654 876",
+    title: "Telephone",
+    description: "06 10 47 36 80",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "contact@visiondigital.fr",
   },
   {
     icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    title: "Addresse",
+    description: "29 rue de reigny 89460 Accolay",
   },
 ];
 
@@ -51,40 +51,41 @@ const Contact = () => {
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Travaillons ensemble</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-                nihil sapiente pariatur id totam.
+                Si vous avez un projet en tête et souhaitez travailler avec un
+                professionnel engagé, n&apos;hésitez pas à me contacter.
+                Ensemble, nous pouvons donner vie à vos idées.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input type="firstname" placeholder="Prénom" />
+                <Input type="lastname" placeholder="Nom" />
+                <Input type="email" placeholder="Email" />
+                <Input type="phone" placeholder="Téléphone" />
               </div>
               {/* select */}
               <Select>
                 <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select a service" />
+                  <SelectValue placeholder="Choisir un service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectLabel>Choisir un service</SelectLabel>
+                    <SelectItem value="est">Développement Web</SelectItem>
+                    <SelectItem value="cst">Maitenance</SelectItem>
+                    <SelectItem value="mst">SEO</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
               {/* textarea */}
               <Textarea
                 className="h-[200px]"
-                placeholder="Type your message here."
+                placeholder="Tapez votre message ici."
               />
               {/* btn */}
               <Button size="md" className="max-w-40">
-                Send message
+                Envoyer
               </Button>
             </form>
           </div>

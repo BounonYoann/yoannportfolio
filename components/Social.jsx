@@ -1,12 +1,20 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
-
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+const download = [
+  {
+    name: "CV",
+    path: "../assets/yoann-bounon-cv.pdf",
+  },
+];
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
-  { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/BounonYoann" },
+  { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/yoann-bounon/" },
+  // {
+  //   icon: <FaInstagram />,
+  //   path: "https://www.instagram.com/visiondigitaldev/",
+  // },
+  // { icon: <FaTwitter />, path: "" },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {

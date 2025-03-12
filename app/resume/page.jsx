@@ -1,53 +1,45 @@
 "use client";
 
 import {
-  FaHtml5,
   FaCss3,
-  FaJs,
-  FaReact,
   FaFigma,
+  FaHtml5,
+  FaJs,
   FaNodeJs,
+  FaReact,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About me",
+  title: "À propos de moi",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Avec plusieurs années d'expérience, je m'efforce d'apporter des solutions efficaces et adaptées aux besoins spécifiques de chaque projet.",
   info: [
     {
-      fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldName: "Nom",
+      fieldValue: "Bounon Yoann",
     },
     {
-      fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldName: "Téléphone",
+      fieldValue: "06 10 47 36 80",
     },
     {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "American",
+      fieldName: "Expérience",
+      fieldValue: "3 ans",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "contact@visiondigital.fr",
     },
     {
       fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldValue: "Disponible",
     },
     {
-      fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldName: "Langues",
+      fieldValue: "Français, Anglais",
     },
   ],
 };
@@ -55,88 +47,88 @@ const about = {
 // experience data
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "Mon expérience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Voici un aperçu de mon parcours professionnel. J'ai travaillé avec une variété de client et une entreprise",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Vision Digital",
+      position: "Fondateur & Développeur Web",
+      duration: "2020 - Maintenant",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Mondial Piscine",
+      position: "Développeur / Webmaster",
+      duration: "2021 - 2022",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Web Force 3",
+      position: "Formation Développeur Web",
+      duration: "2019",
     },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
-    },
+    //     {
+    //       company: "Tech Academy",
+    //       position: "Teaching Assistant",
+    //       duration: "2019 - 2020",
+    //     },
+    //     {
+    //       company: "Digital Agency",
+    //       position: "UI/UX Designer",
+    //       duration: "2018 - 2019",
+    //     },
+    //     {
+    //       company: "Software Development Firm",
+    //       position: "Junior Developer",
+    //       duration: "2017 - 2018",
+    //     },
   ],
 };
 
 // education data
-const education = {
-  icon: "/assets/resume/cap.svg",
-  title: "My education",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
-  items: [
-    {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
-    },
-    {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
-  ],
-};
+// const education = {
+//   icon: "/assets/resume/cap.svg",
+//   title: "My education",
+//   description:
+//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+//   items: [
+//     {
+//       institution: "Online Course Platform",
+//       degree: "Full Stack Web Development Bootcamp",
+//       duration: "2023",
+//     },
+//     {
+//       institution: "Codecademy",
+//       degree: "Front-end Track",
+//       duration: "2022",
+//     },
+//     {
+//       institution: "Online Course",
+//       degree: "Programming Course",
+//       duration: "2020 - 2021",
+//     },
+//     {
+//       institution: "Tech Institute",
+//       degree: "Certified Web Developer",
+//       duration: "2019",
+//     },
+//     {
+//       institution: "Design School",
+//       degree: "Diploma in Graphic Design",
+//       duration: "2016 - 2018",
+//     },
+//     {
+//       institution: "Community College",
+//       degree: "Associate Degree in Computer Science",
+//       duration: "2014 - 2016",
+//     },
+//   ],
+// };
 
 // skills data
 const skills = {
-  title: "My skills",
+  title: "Mes compétences",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Je suis un développeur web passionné. Voici quelques-unes de mes compétences clés.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -202,9 +194,8 @@ const Resume = () => {
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
+            <TabsTrigger value="skills">Compétences</TabsTrigger>
+            <TabsTrigger value="about">À propos de moi</TabsTrigger>
           </TabsList>
 
           {/* content */}
@@ -242,36 +233,6 @@ const Resume = () => {
             </TabsContent>
 
             {/* education */}
-            <TabsContent value="education" className="w-full">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                  {education.description}
-                </p>
-                <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                    {education.items.map((item, index) => {
-                      return (
-                        <li
-                          key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
-                        >
-                          <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                            {item.degree}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.institution}</p>
-                          </div>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </ScrollArea>
-              </div>
-            </TabsContent>
 
             {/* skills */}
             <TabsContent value="skills" className="w-full h-full">

@@ -1,35 +1,35 @@
 "use client";
 
-import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
+import { BsArrowDownRight } from "react-icons/bs";
 
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Développement Front-End",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Je propose des services de création d'interfaces utilisateur dynamiques et interactives en utilisant React. ",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Création de sites WordPress",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Avec mes compétences en WordPress, je peux créer et personnaliser des sites web professionnels, des blogs ou des e-commerce.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Développement Back-End",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Je commence à explorer le développement back-end avec Node.js et Express. Je peux créer des API simples, gérer des bases de données et plus encore.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Support et maintenance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Je propose des services de maintenance et de support technique pour les sites web existants. Je peux également vous aider à améliorer les performances de votre site.",
     href: "",
   },
 ];
