@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata = {
   title: "Bounon Yoann",
-  description: "Développeur FullStack",
+  description: "Developpeur FullStack",
 };
 
 export default function RootLayout({ children }) {
