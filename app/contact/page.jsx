@@ -29,7 +29,7 @@ const info = [
   },
   {
     icon: <FaMapMarkerAlt />,
-    title: "Addresse",
+    title: "Adresse",
     description: "29 rue de reigny 89460 Accolay",
   },
 ];
