@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Bounon Yoann",
+  title: "Visdion Digital",
   description: "Developpeur FullStack",
 };
 
