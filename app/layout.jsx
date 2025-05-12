@@ -13,7 +13,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Visdion Digital",
+  title: "Vision Digital",
+
   description: "Developpeur FullStack",
 };
 
